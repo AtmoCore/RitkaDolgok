@@ -1,0 +1,19 @@
+author: bigo
+version: 1.0
+main: hu.bigo.main
+name: RitkaDolgok
+commands:
+  start:
+    description: inditja ezt
+  pause:
+    description: leszuneteli ezt
+  feladatok:
+    description: feladatok
+  done:
+    description: befejezo parancs
+  undone:
+    description: nembefejezo parancs lol
+  hely:
+    description: hely lerakasa
+  helyek:
+    description: helyek mutatasa
