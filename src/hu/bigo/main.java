@@ -25,8 +25,6 @@ import net.md_5.bungee.api.chat.HoverEvent.Action;
 public class main extends JavaPlugin implements Listener, CommandExecutor{
 	int i;
 	int time = this.getConfig().getInt("timeInSecs");
-	File cFile;
-	FileConfiguration fC;
 	
 	public void onEnable() {
 		this.getServer().getPluginManager().registerEvents(this, this);
